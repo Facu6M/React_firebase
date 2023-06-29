@@ -6,9 +6,14 @@
 }
 
 .grafico_barras {
-height: 1200px;
-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 850px;
+  height: 320px;
 }
+
+
 
 table tr th,td{
     height: 60px;
@@ -23,14 +28,6 @@ table tr td{
 
 @media (max-width: 1000px) {
     .grafico_barras{
-        height: 800px;
-        width: 700px;
-    }
-}
-
-@media (max-width: 800px) {
-    .grafico_barras{
-        height: 600px;
-        width: 400px;
+        width: 500px;
     }
 }
