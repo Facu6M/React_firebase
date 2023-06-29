@@ -5,9 +5,9 @@
     margin-top: 30px;
 }
 
-.grafico_barras :only-child{
-    height: 1200px;
-    width: 1000px;
+.grafico_barras {
+height: 1200px;
+width: 1000px;
 }
 
 table tr th,td{
@@ -19,4 +19,18 @@ table tr th,td{
 
 table tr td{
     background-color: rgb(224, 216, 216);
+}
+
+@media (max-width: 1000px) {
+    .grafico_barras{
+        height: 800px;
+        width: 700px;
+    }
+}
+
+@media (max-width: 800px) {
+    .grafico_barras{
+        height: 600px;
+        width: 400px;
+    }
 }
