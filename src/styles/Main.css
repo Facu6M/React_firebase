@@ -1,0 +1,31 @@
+nav{
+    margin: 0px auto;
+    padding: 10px 20px;
+    background-color: rgb(97, 96, 96);
+    height: 80px;
+}
+
+.button_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+button{
+    border-radius: 20px;
+    height: 75px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(63, 121, 117);
+    margin: 0px auto;
+    margin: 40px auto;
+    border: 0px solid;
+}
+
+.link{
+    color:black;
+    padding: 20px;
+   text-decoration: none;
+}

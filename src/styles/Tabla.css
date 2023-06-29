@@ -1,0 +1,55 @@
+.name_container{
+display: flex;
+margin: 20px 60px;
+gap: 20px;
+}
+
+
+.texto_container{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto_div{
+    text-align: center;
+    width: 500px;
+    background-color: rgb(79, 76, 76);
+    border-radius: 20px;
+}
+
+.texto_div p {
+    font-size: 30px;
+}
+
+.table_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+table{
+    padding: 50px;
+}
+
+table tr th,td{
+    height: 60px;
+    width: 300px;
+    border: 1px solid;
+    text-align: center;
+}
+
+table tr td{
+    background-color: rgb(224, 216, 216);
+}
+
+
+.table_button{
+    margin: 0px auto;
+    text-decoration: underline;
+    background-color: grey;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
